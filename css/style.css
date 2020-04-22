@@ -1,0 +1,187 @@
+ h2
+{
+    color:#5bc0de;
+    border-left: 6px solid #5bc0de ;
+    border-right: 6px solid #5bc0de;
+    text-align: center;
+
+}
+
+
+/* Nav Bölümü */
+.navbar
+{
+    border-bottom:white 2px solid;
+}
+
+.navbar .navbar-brand 
+{
+    font-size:30px;
+}
+
+/*.bg-info
+{
+    background-color:black !important;
+}*/
+
+.nav-link
+{
+    color:white !important;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover
+{
+color:black !important;
+
+}
+
+/* Header Bölümü */
+
+#headerSection
+{
+    background: url("../images/9.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height:100vh;
+}
+
+#headerSection .overlay
+{
+    background-color: rgba(0,0,0,.5);
+}
+
+#headerSection .row
+{
+    height:100vh ;
+}
+
+
+#headerSection h1
+{
+    color:white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 90px;
+
+}
+
+/* Hakkımda Bölümü */
+
+#ourHistory h2
+{
+    font-size: 32px;
+    font-weight: 400;
+    color: #5bc0de;
+    text-transform: uppercase;
+    
+}
+
+
+
+#ourHistory h2{
+    border-left: 6px solid #5bc0de;
+    padding-left: 30px;
+}
+
+#ourHistory p
+{
+    line-height: 40px;
+}
+
+/* Hobiler Bölümü */
+
+#hobiler h2
+{
+    color:#5bc0de;
+    border-left: 6px solid #5bc0de ;
+    border-right: 6px solid #5bc0de;
+    text-align: center;
+
+}
+
+/* Özgeçmiş Bölümü */
+
+
+/*Ayasofya*/
+#ayasofya .btn-outline-info
+{
+
+   margin-bottom: 80px;
+}
+
+
+/* Mirasımız Bölümü */
+
+#mirasimiz
+{
+    
+    margin-top: 200px;
+    background-color: #e2e2e2;
+    line-height: 20px;
+}
+
+.caseArea
+{
+    background-color: #fff;
+    margin-top: 20px;
+    margin-right: -40px;
+    z-index: 100;
+    padding: 40px;
+    position: relative;
+    min-height: 400px;
+}
+
+#mirasimiz h3
+{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.caseImage
+{
+    margin-left: -40px;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
