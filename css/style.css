@@ -7,7 +7,6 @@
 
 }
 
-
 /* Nav Bölümü */
 .navbar
 {
@@ -18,11 +17,6 @@
 {
     font-size:30px;
 }
-
-/*.bg-info
-{
-    background-color:black !important;
-}*/
 
 .nav-link
 {
@@ -67,46 +61,38 @@ color:black !important;
 
 /* Hakkımda Bölümü */
 
-#ourHistory h2
+#hakkimda p
 {
-    font-size: 32px;
-    font-weight: 400;
-    color: #5bc0de;
-    text-transform: uppercase;
-    
+    line-height: 35px;
 }
 
 
+/*Şehrim Bölümü*/
 
-#ourHistory h2{
-    border-left: 6px solid #5bc0de;
-    padding-left: 30px;
+#sehrim h3
+{
+    border-width: 5px;
+    border-color: #337ab7;
+    border-style: dotted;
+   text-align: center;
+   font-weight: bold;
+   font-variant: small-caps;
+   font-size: 40px;
+   color:rgb(51, 61, 153);
 }
 
-#ourHistory p
+#sehrim p
 {
-    line-height: 40px;
-}
-
-/* Hobiler Bölümü */
-
-#hobiler h2
-{
-    color:#5bc0de;
-    border-left: 6px solid #5bc0de ;
-    border-right: 6px solid #5bc0de;
+    padding: 20px 20px 20px 20px;    
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #337ab7;
     text-align: center;
-
-}
-
-/* Özgeçmiş Bölümü */
-
-
-/*Ayasofya*/
-#ayasofya .btn-outline-info
-{
-
-   margin-bottom: 80px;
+    background-color: #F5F5F5;
+    font-size: large;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 
@@ -114,8 +100,6 @@ color:black !important;
 
 #mirasimiz
 {
-    
-    margin-top: 200px;
     background-color: #e2e2e2;
     line-height: 20px;
 }
@@ -144,25 +128,167 @@ color:black !important;
     min-height: 500px;
 }
 
+/*İletişim Sayfası*/
+#iletisim
+{
+    background: url("../images/11.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#iletisim td
+{
+  height:10px; 
+}
+#iletisim form
+{
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 500px;
+    height: 650px;
+    margin: 50px auto;
+    padding: 50px 10px 30px 110px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#iletisim .overlay
+{
+    background-color: rgba(0,0,0,.3);
+}
 
 
+#iletisim span
+{
+    color: red;
+}
 
+#iletisim input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
 
+#iletisim select 
+{
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
 
+#iletisim input[type="submit"] {
+    font-size: 110%;
+    font-weight: 400;
+    background: #00a3cc;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 3px 30px 3px 30px;
+    
+}
 
+#iletisim input[type="button"]
+{
+    font-size: 110%;
+    font-weight: 400;
+    background: #00a3cc;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -105px;
+    padding: 3px 30px 3px 30px;
+}
 
+/*Login Sayfası*/
 
+#login
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../images/10.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height:100vh;
+}
 
+#login .overlay
+{
+    background-color: rgba(0,0,0,.5);
+}
 
+#login .row
+{
+    height:100vh ;
+}
 
-
-
-
-
-
-
-
-
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+#login h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #0bbea1;
+    color: #000;
+}
 
 
 
